@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview Setup - IntervAi</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <main class="container setup">
+    <h1>Interview Setup</h1>
+
+    <label>Interview Type</label>
+    <select id="interviewType" class="input">
+      <option>Technical</option>
+      <option>HR</option>
+      <option>Aptitude</option>
+    </select>
+
+    <label>Job Role</label>
+    <input id="jobRole" class="input" placeholder="Python Developer">
+
+    <label>Difficulty</label>
+    <select id="difficulty" class="input">
+      <option>Easy</option>
+      <option>Medium</option>
+      <option>Hard</option>
+    </select>
+
+    <button class="primary" onclick="beginInterview()">Start Interview</button>
+  </main>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

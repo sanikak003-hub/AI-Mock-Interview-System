@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - IntervAi</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+  <nav class="nav">
+    <div class="logo">🤖 <b>IntervAi</b></div>
+    <button onclick="logout()">Logout</button>
+  </nav>
+
+  <main class="container">
+    <h1>Hello, <span id="name"></span> 👋</h1>
+    <p class="muted">Choose your interview type.</p>
+
+    <div class="cards">
+      <div class="card">
+        <div class="icon">💻</div>
+        <h2>Technical</h2>
+        <p>Python, AI, ML and programming questions.</p>
+        <button onclick="startInterview('Technical')">Start →</button>
+      </div>
+
+      <div class="card">
+        <div class="icon">👔</div>
+        <h2>HR Interview</h2>
+        <p>Communication, confidence and HR questions.</p>
+        <button onclick="startInterview('HR')">Start →</button>
+      </div>
+
+      <div class="card">
+        <div class="icon">🧠</div>
+        <h2>Aptitude</h2>
+        <p>Logical and quantitative questions.</p>
+        <button onclick="startInterview('Aptitude')">Start →</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="../js/dashboard.js"></script>
+</body>
+</html>

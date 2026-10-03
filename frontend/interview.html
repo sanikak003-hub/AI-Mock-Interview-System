@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interview - IntervAi</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/interview.css">
+</head>
+<body>
+  <main class="container">
+    <h1>🤖 IntervAi Interviewer</h1>
+
+    <div class="interview-grid">
+      <section class="panel">
+        <h2>Live Camera</h2>
+        <video id="camera" autoplay muted playsinline></video>
+        <p id="cameraStatus">Camera starting...</p>
+      </section>
+
+      <section class="panel">
+        <p id="counter" class="muted">Question 1 / 5</p>
+        <div id="question" class="question">Loading question...</div>
+
+        <div id="answerBox" class="answerBox">
+          Your spoken answer will appear here...
+        </div>
+
+        <div class="actions">
+          <button onclick="repeatQuestion()">🔊 Repeat</button>
+          <button onclick="startListening()">🎙️ Speak Answer</button>
+          <button class="danger" onclick="finishInterview()">Finish</button>
+        </div>
+
+        <p id="listening" class="listening">Preparing...</p>
+        <p id="feedback"></p>
+      </section>
+    </div>
+  </main>
+
+  <script src="../js/interview.js"></script>
+  <script src="../js/camera.js"></script>
+  <script src="../js/speech.js"></script>
+</body>
+</html>

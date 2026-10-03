@@ -1,0 +1,23 @@
+{
+  "Technical": [
+    "What is Python?",
+    "What is Artificial Intelligence?",
+    "What is Machine Learning?",
+    "What is the difference between a list and a tuple?",
+    "Explain one project you have developed."
+  ],
+  "HR": [
+    "Tell me about yourself.",
+    "What are your strengths?",
+    "What are your weaknesses?",
+    "Why should we hire you?",
+    "Where do you see yourself in five years?"
+  ],
+  "Aptitude": [
+    "What is 20 percent of 500?",
+    "What is the average of 10, 20 and 30?",
+    "What is the next number: 2, 4, 8, 16?",
+    "A train travels 60 km in 2 hours. What is its speed?",
+    "What is 25 percent of 800?"
+  ]
+}
